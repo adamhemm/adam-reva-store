@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Books</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+<h1>Welcome to the Tuition Reimbursement System.</h1>
+<div>
+	<p>Here are Tuition Reimbursement Forms (TRF) you have submitted.</p>
+    <table id="trf" class="table">
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Description</th>
+            <th>Cost</th>
+            <th>Grading Format</th>
+            <th>Event Type</th>
+            <th>Justification</th>
+            <th>Approval Status</th>
+        </tr>
+    </table>
+    <a href="CreateTRF">Submit a new TRF.</a>
+    <p>Here are TRFs you are an approver for.</p>
+    <table id="trfa" class="table">
+    	<tr>
+    		<th>DS Approval</th>
+    		<th>DS Comment</th>
+    		<th>DH Approval</th>
+    		<th>DH Comment</th>
+    		<th>BC Approval</th>
+    		<th>BC Comment</th>
+    		<th>Reimbursement Amount</th>
+    		<th>Reimbursement Comment</th>
+    	</tr>
+    </table>
+    <p>Here are the TRF completions you need to approve.</p>
+    <table id="trfcomp" class="table">
+    	<tr>
+    		<th>Grade</th>
+    		<th>Presentation</th>
+    		<th>Approval Status</th>
+    	</tr>
+    </table>
+    <script src="static/js/LogIn.js"></script>
+    <script src="static/js/TRF.js"></script>
+</div>
+</body>
+</html>
