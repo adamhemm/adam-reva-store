@@ -24,6 +24,7 @@ public class TestController extends DefaultServlet{
 			log.trace("This is static content!");
 			super.doGet(req, resp);
 		}
+		//haha
 	}
 
 }
